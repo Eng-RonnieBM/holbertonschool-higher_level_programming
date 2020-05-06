@@ -10,7 +10,7 @@ int checking(listint_t **head, listint_t *last_val)
 {
 	if (last_val == NULL)
 		return (1);
-	if (check_pal(head, last_val->next) && (*head)->n == last_val->n)
+	if (checking(head, last_val->next) && (*head)->n == last_val->n)
 	{
 		*head = (*head)->next;
 		return (1);
