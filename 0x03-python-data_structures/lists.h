@@ -20,8 +20,6 @@ listint_t *add_nodeint_end(listint_t **head, const int n);
 void free_listint(listint_t *head);
 
 int is_palindrome(listint_t **head);
-int list_len(listint_t *h);
-int check_even(listint_t *head, int len_list);
-int check_odd(listint_t *head, int len_list);
+int checking(listint_t **head, listint_t *last_val);
 
 #endif /* LISTS_H */
