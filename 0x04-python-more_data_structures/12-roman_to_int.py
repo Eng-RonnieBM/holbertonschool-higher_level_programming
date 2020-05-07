@@ -16,7 +16,7 @@ def roman_to_int(roman_string):
                     sum -= get_val(roman_string[i])
     return sum
 
-#Defining letter value system
+
 def get_val(char):
         if char == 'I':
             return 1
